@@ -1,8 +1,8 @@
 # Smart Digital Dice Arena
   A simple "2-player digital dice game" implemented using Embedded C on the LPC2129 microcontroller. This project simulates a dice game where two players take turns rolling a virtual dice, and their scores are displayed using an LCD and 7-segment display.
 # Features
-  Two-player interactive gameplay
-  Random dice number generation (1–6)
+ >Two-player interactive gameplay
+>Random dice number generation (1–6)
   LCD display for game messages
   7-segment display for score tracking
   5 rounds gameplay
