@@ -4,7 +4,7 @@ A simple **2-player digital dice game** implemented using **Embedded C** on the 
 
 ---
 
-## 🚀 Features
+# Features
 
 * 🎮 Two-player interactive gameplay
 * 🎲 Random dice number generation (1–6)
