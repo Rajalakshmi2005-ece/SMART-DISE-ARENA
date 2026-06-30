@@ -97,9 +97,3 @@ PLAYER 2 WIN
 ## 🙌 Author
 
 * Rajalakshmi S
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
