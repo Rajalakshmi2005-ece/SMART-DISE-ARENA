@@ -25,11 +25,9 @@
 2. Two players take turns pressing switches to roll the dice.
 3. A random number (1–6) is generated using `rand()`.
 4. Scores are updated and displayed:
-
    * LCD shows round and player info
    * 7-segment shows current scores
-5. After 5 rounds:
-
+6. After 5 rounds:
    * The player with the highest score wins
    * Result is displayed on LCD
 
@@ -40,42 +38,26 @@
 * Push Buttons (for Player 1 & Player 2)
 * Power Supply
 
----
-
-## ▶️ How to Run
-
+# How to Run
 1. Compile the code using an Embedded C compiler (Keil uVision recommended).
 2. Flash the program to LPC21xx microcontroller.
 3. Connect hardware as per pin configuration.
 4. Power ON the system.
 5. Press switches to play the game.
 
----
+# Output Example
+  * ROUND 1 PLAYER 1
+    Dice: 4
+  
+  * ROUND 1 PLAYER 2
+    Dice: 6
 
-## 🎯 Output Example
-
-```
-ROUND 1 PLAYER 1
-Dice: 4
-
-ROUND 1 PLAYER 2
-Dice: 6
-
-...
-
-PLAYER 2 WIN
-```
-
----
-
-## 📌 Notes
-
+  * PLAYER 2 WIN
+    
+#  Notes
 * Random number generation uses timer seed (`srand(T0TC)`).
 * Display refresh is handled using multiplexing technique.
 * Delay functions are used for timing control.
 
----
-
-## 🙌 Author
-
+# Author
 * Rajalakshmi S
